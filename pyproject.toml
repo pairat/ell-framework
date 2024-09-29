@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["Pairat"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.15"
+flask = "^2.3.2"
+gunicorn = "^20.1.0"
+streamlit = "^1.38.0"
+openai = "^1.50.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
